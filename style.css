@@ -25,7 +25,7 @@ h4 {
 }
 h3 {
   padding-top: 40px;
-  padding-bottom: 40px;
+  padding-bottom: 20px;
 }
 h4 {
   padding-top: 40px;
@@ -38,9 +38,13 @@ h5 {
 p {
   font-size: 18px;
 }
+img {
+  width: 280px;
+  display: block;
+}
 a {
   display: block;
-  max-width: 200px;
+  margin-right: 40px;
   border: 1px solid #027373;
   color: #027373;
   padding: 20px 20px;
@@ -53,14 +57,20 @@ a:hover {
   background-color: #027373;
   transition: all 0.4s ease;
 }
-th {
+th.navbar {
   opacity: 0.6;
   transition: all 0.4s ease;
 }
-th:hover {
+th.navbar:hover {
   cursor: pointer;
   opacity: 1;
   transition: all 0.4s ease;
+}
+table.all-projects {
+  table-layout: fixed;
+}
+td {
+  width: 33%;
 }
 footer {
   color: #027373;
@@ -98,4 +108,35 @@ footer {
   display: inline;
   border: none;
   padding: 0;
+}
+.my-projects {
+  padding: 20px;
+}
+.project-name {
+  padding: 20px;
+  text-align: left;
+  font-size: 20px;
+  color: #a9d9d0;
+}
+.project-description {
+  vertical-align: text-top;
+  padding: 0 20px;
+  text-align: left;
+  color: #a9d9d0;
+}
+.launch-app {
+  max-width: 100%;
+  border: 1px solid #a9d9d0;
+  color: #a9d9d0;
+  padding: 10px 10px;
+}
+.launch-app:hover {
+  border: 1px solid #a9d9d0;
+  background-color: #a9d9d0;
+
+  color: #027373;
+  padding: 10px 10px;
+}
+.project-link {
+  padding: 20px;
 }
