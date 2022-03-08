@@ -140,3 +140,9 @@ footer {
 .project-link {
   padding: 20px;
 }
+.img-profile {
+  width: 400px;
+  margin-top: -280px;
+  margin-right: 100px;
+  float: right;
+}
