@@ -24,7 +24,8 @@ h4 {
   font-size: 40px;
 }
 h3 {
-  padding-bottom: 60px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 h4 {
   padding-top: 40px;
@@ -52,6 +53,20 @@ a:hover {
   background-color: #027373;
   transition: all 0.4s ease;
 }
+th {
+  opacity: 0.6;
+  transition: all 0.4s ease;
+}
+th:hover {
+  cursor: pointer;
+  opacity: 1;
+  transition: all 0.4s ease;
+}
+footer {
+  color: #027373;
+  margin-top: -20px;
+  text-align: center;
+}
 .greeting {
   padding-left: 120px;
   height: 100%;
@@ -78,4 +93,9 @@ a:hover {
 .contact {
   table-layout: fixed;
   width: 100%;
+}
+.open-link {
+  display: inline;
+  border: none;
+  padding: 0;
 }
